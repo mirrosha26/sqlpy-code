@@ -6,7 +6,7 @@ SELECT MAX(rental_rate) FROM film;
 SELECT AVG(length) FROM film;
 
 -- сколько уникальных имен актеров?
-SELECT COUNT(DISTINCT first_name) FROM actor
+SELECT COUNT(DISTINCT first_name) FROM actor;
 
 -- посчитаем сумму и средние продажи по конкретному продавцу
 SELECT SUM(amount), AVG(amount) FROM payment
